@@ -1,0 +1,93 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: skyblue;
+  max-width:100%;
+  max-height:100%;
+  margin:auto;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 0px;
+  font-size: 50px;
+  font-family: Comic Sans MS,Comic Sans,cursive;
+  color: rgb(0, 0, 0);
+}
+h1, h3, p {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input {
+  border: 1px solid black;
+  padding: 15px;
+  font-size: 16px;
+
+}
+input:focus {
+  outline: none;
+}
+
+.form-control {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 600px;
+}
+
+.btn {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+
+}
+
+.recipes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-body {
+  padding: 10px;
+  text-align: center;
+  font-size: 150%;
+}
+
+.category {
+  font-family: 'Comic Sans MS','Comic Sans',cursive;
+  font-size: larger ;
+  color: black;
+}
+
+a {
+  background-color: #FFBA5A;
+  color: inherit;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
